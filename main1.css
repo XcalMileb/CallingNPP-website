@@ -1,0 +1,341 @@
+:root {
+	--yellow: #C17E37;
+	--white: #fff;
+	--black: #333;
+	--gray: #888;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/*-----nav section----*/
+nav {
+	background-color: var(--gray);
+	color: var(--white);
+	height: 80px;
+}
+.nav-con {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+}
+ul.menu {
+	display: flex;
+	list-style: none;
+}
+ul.menu li {
+	margin: 0;
+}
+ul.menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+/*-----nav section----*/
+
+/*-----Banner section----*/
+.banner {
+	height: 600px;
+	background-color: darkgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("image/lewis-kang-ethe-ngugi-f5pTwLHCsAg-unsplash.jpg");
+	box-shadow: inser 0 0 0 2000px rgb(0,0,0,2);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.banner-info {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	color: var(--white);
+	
+}
+
+.banner-info .banner-btn {
+	margin-top: auto;
+	display: inline-block;
+	background-color: #C17E37;
+	color: #000;
+	text-decoration: none;
+	padding: 1.5rem;
+	border-radius: 10px;
+}
+/*-----Banner section----*/
+
+/*-----Blog section----*/
+.blog {
+	background: var(--gray);
+	height: auto;
+	padding: 2rem 0;
+}
+.blog-tiltle {
+	text-align: center;
+}
+.blog-title h3 {
+	color: var(--white);
+	font-size: 2rem;
+	
+}
+.blog-title p {
+	color: var(--yellow);
+	font-size: 1.2rem;
+	
+}
+
+.blog-post {
+	margin: 2rem 0;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 2rem;
+}
+.blog-post img {
+	width: 100%;
+	border-bottom: 15px solid var(--yellow);
+}
+.blog-post h3 {
+	color: var(--white);
+	margin: .5rem 0;
+}
+
+.blog-post p {
+	color: var(--black);
+	line-height: 20px;
+}
+.blog-post-btn {
+	background: var(--yellow);
+	color: var(--black);
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	display: inline-block;
+	margin-top: 2rem;
+	
+}
+
+/*-----Blog section----*/
+/*-----CTA section----*/
+.cta {
+	height: 300px;
+	/*-----Background red;----*/
+	background: url("image/Screenshot 2023-08-18 012110.png");
+	box-shadow: inser 0 0 0 2000px rgb(0,0,0,0.5);
+	background-size: cover;
+	background-position: center;
+	
+}
+.cta-con {
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	align-items: center;
+}
+.cta-title {
+	font-size: 3rem;
+	color: var(--yellow);
+	
+}
+.cta-btn{
+	background: var(--yellow);
+	color: #000;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+}
+
+/*-----CTA section----*/
+
+/*-----services section----*/
+.services {
+	height: auto;
+	background: var(--black);
+	color: var(--white);
+	padding: 5rem 0;
+	
+}
+.services-title {
+	text-align: center;
+}
+.services-title h3 {
+	font-size: 2rem;
+	color: var(--white);
+	
+}
+.services-title p {
+	font-size: 1.2rem;
+	color: var(--yellow);
+}
+.services-items {
+	margin-top: 3rem;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 2rem;
+}
+.services-item {
+	display: flex;
+
+}
+.services-icon {
+	margin: 15px;
+}
+.services-icon .bi-book {
+	font-size: 1.5rem;
+	background: var(--yellow);
+	color: #000;
+	padding: 0.5rem;
+}
+.services-info p {
+	color: var(--gray);
+}
+/*-----services section----*/
+/*-----pricing section----*/
+.pricing {
+	background: #111;
+	height: auto;
+	padding: 5rem 0;
+	
+}
+.pricing-title {
+	text-align: center;
+}
+
+.pricing-title h3 {
+	font-size: 2rem;
+	color: var(--white)
+}
+
+.pricing-title p {
+	color: var(--yellow);
+}
+.pricing-box {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 3rem;
+	color: var(--white);
+	text-align: center;
+}
+.pricing-info h3 {
+	margin-top: 2rem;
+	font-size: 4rem;
+	color: var(--yellow);
+	
+}
+.pricing-info h4 {
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	
+}
+.pricing-info p{
+	color: var(--gray);
+}
+.pricing-btn {
+	background: var(--yellow);
+	color: #000;
+	padding: 1rem 1.5rem;
+	display: inline-block;
+	margin-top: 1.5rem;
+	text-decoration: none;
+}
+/*-----pricing section----*/
+
+/*-----search section----*/
+.search {
+	height: 400px;
+	background: red;
+	background: url("image/annie-spratt-QckxruozjRg-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	box-shadow: inser 0 0 0 2000px rgb(0,0,0,0.5);
+}
+.search-con {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	
+}
+.search-title {
+	text-align: center;
+}
+	
+.search-title h3{
+	color: var(--white);
+	font-size: 3rem;
+	
+}
+.services-title p {
+	color: var(--white);
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	
+}
+.search-input {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	
+}
+.search-text {
+	padding: .5rem 2rem;
+	width: 500px;
+	height: 50px;
+	border: none;
+	outline: none;
+}
+.search-submit {
+	width: 50px;
+	height: 50px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+/*-----search section----*/
+
+/*-----footer section----*/
+footer {
+	height: auto;
+	background: #111;
+	padding: 4rem 0;
+}
+.footer-con {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	color: var(--white);
+}
+.footer-item:nth-child(1) h3 {
+	color: var(--yellow);
+}
+
+.footer-item h3 {
+	margin-bottom: 2rem ;
+}
+
+.footer-item ul {
+	list-style: none;
+}
+
+.footer-item ul li {
+	margin: 1rem 0;
+}
+
+.footer-item a {
+	color: var(--gray);
+	text-decoration: none;
+}
+.footer-item .bi-house,
+.footer-item .bi-envelope-at-fill,
+.footer-item .bi-telephone {
+	color: var(--yellow);
+	margin-right: 0.5rem;
+}
+
+/*-----footer section----*/
+
