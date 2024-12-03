@@ -2,7 +2,8 @@
 	--yellow: #C17E37;
 	--white: #fff;
 	--black: #333;
-	--gray: #888;
+	--grey: #777;
+	--ttl: #F8D570;
 }
 
 * {
@@ -10,7 +11,14 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+.logo h3 li a {
+	color: var(--white);
+	text-decoration: none;
+}
+.logo h3 li {
+	list-style: none;
+	margin: 1px;
+}
 .container {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -18,9 +26,13 @@
 
 /*-----nav section----*/
 nav {
-	background-color: var(--gray);
+	background-color: var(--grey);
 	color: var(--white);
 	height: 80px;
+}
+.animate__animated .animate__pulse .animate__repeat-3{
+	animation-duration: 10s;
+	animate-repeat: 3;
 }
 .nav-con {
 	display: flex;
@@ -43,13 +55,13 @@ ul.menu li a {
 
 /*-----Banner section----*/
 .banner {
-	height: 600px;
+	height: 550px;
 	background-color: darkgrey;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: url("image/lewis-kang-ethe-ngugi-f5pTwLHCsAg-unsplash.jpg");
-	box-shadow: inser 0 0 0 2000px rgb(0,0,0,2);
+	box-shadow: inset 0 0 1 2000px rgb(0,0,0,3);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -74,7 +86,7 @@ ul.menu li a {
 
 /*-----Blog section----*/
 .blog {
-	background: var(--gray);
+	background: var(--grey);
 	height: auto;
 	padding: 2rem 0;
 }
@@ -91,35 +103,32 @@ ul.menu li a {
 	font-size: 1.2rem;
 	
 }
-
-.blog-post {
-	margin: 2rem 0;
+.blog-post-con {
+	margin: 1.5rem 0;
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-gap: 2rem;
+	grid-gap: 0.5rem;
+	align-items: center;
+}
+.blog-post {
+	display: block;
+	margin: 1rem 0.5rem;
+	padding: 0.2rem 0;
+	
 }
 .blog-post img {
-	width: 100%;
-	border-bottom: 15px solid var(--yellow);
+	width: 250px;
+	height: 130px;
+	border-bottom: 5px solid var(--yellow);
+	border-top: 5px solid var(--yellow);
+	
 }
 .blog-post h3 {
 	color: var(--white);
-	margin: .5rem 0;
+	font-size: 1.1rem;
+	margin: .7rem 0;
 }
 
-.blog-post p {
-	color: var(--black);
-	line-height: 20px;
-}
-.blog-post-btn {
-	background: var(--yellow);
-	color: var(--black);
-	text-decoration: none;
-	padding: 0.5rem 1rem;
-	display: inline-block;
-	margin-top: 2rem;
-	
-}
 
 /*-----Blog section----*/
 /*-----CTA section----*/
@@ -127,7 +136,6 @@ ul.menu li a {
 	height: 300px;
 	/*-----Background red;----*/
 	background: url("image/Screenshot 2023-08-18 012110.png");
-	box-shadow: inser 0 0 0 2000px rgb(0,0,0,0.5);
 	background-size: cover;
 	background-position: center;
 	
@@ -192,7 +200,7 @@ ul.menu li a {
 	padding: 0.5rem;
 }
 .services-info p {
-	color: var(--gray);
+	color: var(--grey);
 }
 /*-----services section----*/
 /*-----pricing section----*/
@@ -233,7 +241,7 @@ ul.menu li a {
 	
 }
 .pricing-info p{
-	color: var(--gray);
+	color: var(--grey);
 }
 .pricing-btn {
 	background: var(--yellow);
@@ -252,7 +260,7 @@ ul.menu li a {
 	background: url("image/annie-spratt-QckxruozjRg-unsplash.jpg");
 	background-position: center;
 	background-size: cover;
-	box-shadow: inser 0 0 0 2000px rgb(0,0,0,0.5);
+	box-shadow: inset 0 0 0 2000px rgb(0,0,0,0.5);
 }
 .search-con {
 	text-align: center;
@@ -327,7 +335,7 @@ footer {
 }
 
 .footer-item a {
-	color: var(--gray);
+	color: var(--grey);
 	text-decoration: none;
 }
 .footer-item .bi-house,
@@ -338,4 +346,42 @@ footer {
 }
 
 /*-----footer section----*/
+
+/*-----Banner section----*/
+.l-banner {
+	height: 350px;
+	background-color: white;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	background: url("image/thatlung.jpg");
+	box-shadow: inset 0 0 1 2000px rgb(0,0,0,3);
+	background-position: center;
+	background-size: cover;
+	text-align: left;
+	padding: 0 1rem;
+}
+.l-banner-info {
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: var(--white);
+	
+}
+
+/*-----Banner section----*/
+/*-----aboutlaos section----*/
+.lao-blog-con {
+	display: flex;
+	background: var(--ttl);
+	background-size: cover;
+}
+.lao-blog-post {
+	align-content: center;
+}
+.lao-blog-post img {
+	
+	align-items: flex-end;
+}
+/*-----aboutlaos section----*/
+
 
