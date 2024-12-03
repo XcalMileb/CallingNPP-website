@@ -60,7 +60,7 @@ ul.menu li a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url("/image/lewis-kang-ethe-ngugi-f5pTwLHCsAg-unsplash.jpg");
+	background: url("./image/lewis-kang-ethe-ngugi-f5pTwLHCsAg-unsplash.JPG");
 	box-shadow: inset 0 0 1 2000px rgb(0,0,0,3);
 	background-position: center;
 	background-size: cover;
