@@ -105,8 +105,8 @@
 }
 .ot-blog-post {
 	display: block;
-	margin: 1rem 0.5rem;
-	padding: 0.2rem 0;
+	margin: 1rem;
+	padding: 0.2rem 1rem;
 	
 }
 .ot-blog-post img {
@@ -119,6 +119,10 @@
 .ot-blog-post h3 {
 	font-size: 1.1rem;
 	margin: .7rem 0;
+}
+.ot-blog-post p {
+	padding: 0.2rem;
+	color: var(--white);
 }
 .ot-blog-post p a {
 	color: var(--white);
