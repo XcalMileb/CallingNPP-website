@@ -19,7 +19,7 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	background: url("/image/thatlung.jpg");
+	background: url("../image/thatlung.jpg");
 	box-shadow: inset 0 0 1 2000px rgb(0,0,0,3);
 	background-position: center;
 	background-size: cover;
@@ -78,7 +78,7 @@
 
 /*-----Others section----*/
 /*----blog section----*/
-.ot-blog {
+.others-blog {
 	background: var(--black);
 	height: auto;
 	color: var(--white);
@@ -132,7 +132,7 @@
 /*-----hobbies section----*/
 .hb-cta {
 	height: 300px;
-	background: url("/image/taylor-D9_QOTmbFAg-unsplash.jpg");
+	background: url("../image/taylor-D9_QOTmbFAg-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	
@@ -174,7 +174,7 @@
 /*-----Blog main section----*/
 .blog2-cta {
 	height: 300px;
-	background: url("/image/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
+	background: url("../image/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	
